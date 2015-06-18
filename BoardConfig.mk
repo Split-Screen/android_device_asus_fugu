@@ -203,3 +203,6 @@ TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
 TW_NO_SCREEN_TIMEOUT := true
 TW_NO_USB_STORAGE := true
 TW_BRIGHTNESS_PATH := "/brightness"
+
+# Enable workaround for slow rom flash
+BOARD_SUPPRESS_SECURE_ERASE := true
